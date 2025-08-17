@@ -22,7 +22,17 @@
     transition: transform 0.5s ease , background-image 2s ease-in;
     cursor: pointer;
 }
+
 .btn:hover{
     transform: scale(1.03);
     background-image: linear-gradient(to right,rgba(255, 137, 56, 1));
+}
+.product {
+    background-image: linear-gradient(rgba(244, 244, 244, 1),rgba(244, 244, 244, 0));
+    transition: transform 1s ease;
+}
+
+.product:hover{
+    transform: scale(1.03);
+    cursor: pointer;
 }
