@@ -1,8 +1,28 @@
-/*Initial Setup*/
 @import "tailwindcss" ;
 
 .Primary-font{
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+/* Common Styling*/
+.max-area{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.btn{
+    padding: 0.70rem 2rem;
+    border: none;
+    border-radius:0.5rem ;
+    background-image: linear-gradient(to right,rgba(255, 137, 56, 1),rgba(255, 0, 0, 1));
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    transition: transform 0.5s ease , background-image 2s ease-in;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.03);
+    background-image: linear-gradient(to right,rgba(255, 137, 56, 1));
 }
