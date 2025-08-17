@@ -22,7 +22,7 @@
         <!--Navigation Bar-->
         <nav class="navigation-bar flex justify-between items-center">
             <div class="nav-log">
-                <img src="/assets/logo.png" alt="Tea House Logo" class="h-30 w-30">
+                <img src="assets/logo.png" alt="Tea House Logo" class="h-30 w-30">
             </div>
             <div class="nav-mid text-xl font-medium">
                 <ul class="nav-items hidden md:flex justify-between">
@@ -36,6 +36,7 @@
                 <button class="nav-btn btn mr-[1.875rem] lg::mr-0">Login</button>
             </div>
         </nav>
+        <!--Banner Section-->
         <section class="banner-section max-area flex flex-col-reverse items-center lg:flex-row justify-between">
             <div class="banner-text  text-center lg:text-left lg:ml-5">
                 <p class="title font-[800] text-[4.5rem] text-[rgba(28, 28, 28, 1)]">It's good <br>tea time at The <br> Tea House</p>
@@ -59,9 +60,10 @@
         
     </header>
     <main class="Main-Section max-area mt-30! ">
+        <!--Our Product Section-->
         <p class="section-title font-[800] text-[2.8rem] text-center">Our Featured Products</p>
         <p class="section-subtitle  max-area font-[300] text-[#777777] text-[1rem] mb-[50px]! text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-        <div class="product-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div class="product-container grid grid-cols-1 mb-[120px] md:grid-cols-2 lg:grid-cols-4 gap-5">
             <div class="product  flex flex-col items-center mb-[20px] rounded-[9px] pt-[30px] pb-[30px] w-[90%]">
                 <img src="./assets/tea-1.png" alt="Milk tea Image" class="">
                 <p class="product-name text-[1.56rem] font-bold">Milk Tea</p>
@@ -83,6 +85,22 @@
                 <p class="product-description text-center text-[#777777] font-[300]">Creamer could be replaced <br> by fresh milk</p>
             </div>
         </div>
+        <section class="Presentation_Section mb-[120px] flex flex-col items-center text-center w-[100%] lg:flex-row lg:text-left justify-around ">
+            <div class="left-image-container grid md:grid-cols-2 lg:grid grid-cols-2 grid-rows-3 gap-[30px]">
+                <div class="orange_grad bg-gradient-to-r from-[#ff0000] to-[#ff8938] opacity-10 rounded-[10px] hidden md:block md:col-span-2 lg:col-span-1"></div>
+                <div class="img-1 row-span-3 lg:row-span-2 bg-[#E6A6231A] flex justify-center items-center rounded-[10px] p-[35px]"><img src="./assets/fresh-2.png" alt="Fresh tea image"></div>
+                <div class="img-2  bg-[#5776391A] row-span-3 lg:row-span-2 flex justify-center items-center rounded-[10px] p-[20px]"><img src="./assets/fresh-1.png" alt="Fresh tea image"></div>
+                <div class="grey_grad  bg-gradient-to-r from-[#d9d9d9] to-[#ffffff] rounded-[10px] hidden lg:block"></div>
+            </div>
+            <div class="Text-section">
+                <p class="sec-title font-bold text-[2.81rem]">Great Tea, Freshly <br> Presented</p>
+                <p class="small-text font-[500] text-[1rem] text-[#777777] mt-[20px] mb-[30px]">The meaning of gong cha is chanese is to provide the best tea to emperor <br> from all possessions . It represents the highest quality and self expectation. <br> Establishing in 2006, Gong cha had been deeply appreciated by its custoers <br> because of good words of mouth and unique customized service orginated <br> from Taiwan.</p>
+                <p class="small-titles text-[1.25rem] font-bold">Unique Taste</p>
+                <p class="small-text font-[500] text-[1rem] text-[#777777] mt-[10px] mb-[20px]">A Unique and different style from other teapots gives a <br> luxurious and minimalist impression</p>
+                <p class="text-[1.25rem] font-bold">Premium Quality</p>
+                <p class="font-[500] text-[1rem] text-[#777777] mt-[10px]">Premium Quality that makes tea more elegant and more <br> durable when you use it.</p>
+            </div>
+        </section>
     </main>
 </body>
 </html>
